@@ -1,0 +1,79 @@
+body {
+    background-color: red;
+    background-image: linear-gradient(to right, #0e0503, #e2dfd3, #041a29);
+    background: linear-gradient(to right, #171718, #f7f6f4, #111314);
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+section {
+    padding: 20px;
+}
+
+div.content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+div.content header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div.content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+div.content table,
+div.content td {
+    border: 1px solid #333;
+}
+
+div.content td {
+    padding: 10px;
+    font-family: 'Verdana', sans-serif;
+}
+
+.biodata-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+    div.content table {
+        font-size: 12px;
+    }
+}
